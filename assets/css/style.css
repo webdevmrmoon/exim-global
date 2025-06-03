@@ -6483,6 +6483,7 @@ textarea.form-control {
 .valuesCard {
     padding: 33px;
     border-radius: 30px;
+    margin-bottom: 20px;
     background: linear-gradient(311deg, #d4ebff, #e4ecff);
 }
 .valuesCard h5 {
@@ -6496,9 +6497,9 @@ textarea.form-control {
 }
 .aboutSection.valuesSection .aboutImg .aboutImg1 {
     width: 100%;
-    height: 624px;
+    /* height: 624px; */
     bottom: 0px;
-    border-radius: 30px;
+    border-radius: 0px;
     object-fit: cover;
 }
 .aboutSection.valuesSection .aboutSideContentsWrapper {
@@ -7527,6 +7528,9 @@ body.dark .hamburger .line {
     }
     .logoSection img {
         width: 200px;
+    }
+    .howitworkCard {
+        min-height: 320px;
     }
 }
 
